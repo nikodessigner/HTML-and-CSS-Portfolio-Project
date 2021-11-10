@@ -143,3 +143,31 @@ h1, h2{
     width: 33%;
     margin: 0 auto;
 }
+
+hr{
+    border-top: 1px solid #252525;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    margin-bottom: 40px;
+}
+
+.right-about-heading{
+    width: 60%;
+    float: left;
+    line-height: 15px;
+    margin-bottom: 40px;
+}
+
+.right-about-heading, .left-about-heading h2{
+    text-align: center;
+}
+
+.right-about-heading, .left-about-heading p{
+    text-align: center;
+}
