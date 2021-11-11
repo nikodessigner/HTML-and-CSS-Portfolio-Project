@@ -196,3 +196,14 @@ hr{
 
     border-radius: 50%;
 }
+
+/* workout programs */
+
+#workout-programs{
+    background-image: url('../images/workout-programs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
