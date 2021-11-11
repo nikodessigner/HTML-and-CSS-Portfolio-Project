@@ -207,3 +207,15 @@ hr{
     width: 100%;
     overflow: hidden;
 }
+
+#workout-programs div{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: 200px;
+    float: left;
+
+    padding: 20px 0;
+    text-align: center;
+
+}
