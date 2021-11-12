@@ -210,12 +210,26 @@ hr{
 
 #workout-programs div{
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 200px;
     float: left;
 
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
+}
 
+.w-prog-h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 280%;
+}
+
+#workout-programs div h2{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#workout-programs div h3{
+    padding-bottom: 10px;
 }
