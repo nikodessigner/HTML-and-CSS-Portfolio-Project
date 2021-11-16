@@ -260,3 +260,16 @@ footer{
 .social-links i:hover{
     color:#969696;
 }
+
+/* gallery */
+
+#gallery{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img{
+    width: 100%;
+}
