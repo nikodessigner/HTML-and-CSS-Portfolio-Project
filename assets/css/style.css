@@ -233,3 +233,30 @@ hr{
 #workout-programs div h3{
     padding-bottom: 10px;
 }
+
+/* footer */
+
+footer{
+    height: 100px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li{
+    display: inline;
+}
+
+.social-links i{
+    font-size: 180%;
+    margin: 1%;
+    padding: 4%;
+    color: #252525;
+
+    transition: 0.4s;
+}
+
+.social-links i:hover{
+    color:#969696;
+}
