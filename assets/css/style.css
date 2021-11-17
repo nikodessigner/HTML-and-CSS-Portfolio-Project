@@ -302,6 +302,15 @@ footer{
         padding: 0;
     }
 
+    #workout-programs > div{
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
     hr{
         display: none;
     }
@@ -354,10 +363,4 @@ footer{
     .left-about-heading, .right-about-heading{
         width: inherit;
     }
-
-    .left-about-heading h2, .right-about-heading h2{
-        
-      
-    }
-
 }
