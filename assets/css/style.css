@@ -363,4 +363,15 @@ footer{
     .left-about-heading, .right-about-heading{
         width: inherit;
     }
+
+    #gallery{
+       column-count: 3; 
+    }
+}
+
+/* For small sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #gallery{
+        column-count: 2; 
+     }
 }
