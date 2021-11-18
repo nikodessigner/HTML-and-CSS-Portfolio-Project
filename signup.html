@@ -21,29 +21,39 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Sing Up</a>
+                    <a href="signup.html" class="active">Sing Up</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html" >Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section id="gallery">
-        <img src="assets/images/gallery/biceps-training2.jpg" alt="Man training biceps2">
-        <img src="assets/images/gallery/girl1.jpg" alt="Woman training abdomen">
-        <img src="assets/images/gallery/biceps-training3.jpeg" alt="Man training biceps3">
-        <img src="assets/images/gallery/biceps-training.jpeg" alt="Man training biceps">
-        <img src="assets/images/gallery/girl2.jpeg" alt="Woman training arms">
-        <img src="assets/images/gallery/resistance-training.jpeg" alt="Man training resistance">
-        <img src="assets/images/gallery/chest-training.jpeg" alt="Man training chest">
-        <img src="assets/images/gallery/chest-training2.jpg" alt="Man training chest2">
-        <img src="assets/images/gallery/biceps-training4.jpeg" alt="Man training biceps4">
-
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
     </section>
 
     <footer>
