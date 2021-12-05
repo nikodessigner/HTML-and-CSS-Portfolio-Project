@@ -25,3 +25,8 @@ If you want to change your life, HERCULES GYM club is perfect for you!
   - Here we a animation to make this section more realistic.
 
 ![Landing Page](media/hercules-landing.jpg)
+
+- __Our Services Section__
+
+  - Our Services Section will allow the user to see the benefits of joining the HERCULES GYM club. 
+  - The user will see all opportunities to start a new and healthy life.
