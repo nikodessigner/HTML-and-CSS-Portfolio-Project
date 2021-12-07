@@ -503,6 +503,34 @@ label{
     #gallery{
        column-count: 3; 
     }
+
+    /* sign up */
+    .signup-form{
+        
+        margin: 150px 10% 0 0;
+        max-width: 440px;
+        
+    
+        bottom: 200px;
+        left: 120px;
+    
+        position: absolute;
+        
+    }
+    
+    .signup-form > h2{
+        color: #fafafa;
+        margin-bottom: 20px;      
+    }
+    
+    .sign-up{
+        font-size: 200%;
+    }
+    
+    label{
+        font-size: 120%;
+    }
+    
 }
 
 /* For small sizes from 800px wide and down */
@@ -510,13 +538,91 @@ label{
     #gallery{
         column-count: 2; 
      }
+
+     /* footer */
+     footer{
+        height: 200px;
+        padding-top: 30px;
+    }
+
+     /* sign up */
+    .signup-form{
+        
+        margin: 150px 5% 0 0;
+        max-width: 440px;
+        
+        
+    
+        bottom: 200px;
+        left: 20px;
+    
+        position: absolute;
+        
+    }
+    
+    .signup-form > h2{
+        color: #fafafa;
+        margin-bottom: 20px;      
+    }
+    
+    .sign-up{
+        font-size: 200%;
+    }
+    
+    label{
+        font-size: 120%;
+    }
 }
 
 /* For small sizes from 650px wide and down */
 @media screen and (max-width: 650px){
+    #menu {
+        font-size: 110%;
+    }
+
+    /* hero image */
+
+    #hero-image{
+        height: 650px;
+        width: 100%;
+        background: url('../images/hero-image3.jpg') no-repeat;
+    
+        /* animated zoom effect on loading page */
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    /* creates the level of zoom for hero image */
+    
+    @keyframes hero-zoom{
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
+    }
+
+
     #gallery{
         column-count: 1; 
      }
+
+     .join-button{
+        margin-top: 20px;
+        border-radius: 3px;
+        padding: 15px 32px;
+        width: 100%;
+        text-align: center;
+        font-size: 100%;
+        color: #fff;
+        background-color: #f04b4b;
+        text-transform: uppercase;
+        font-weight: 700;
+    
+        display: block;
+    }
 
     footer{
         height: 160px;
@@ -527,8 +633,7 @@ label{
         font-size: 16px;
         font-weight: 400;
 
-        padding-top: 10px;
-        
+        padding-top: 10px;    
     }
 
 
