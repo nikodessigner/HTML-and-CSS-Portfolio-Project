@@ -189,21 +189,16 @@ hr{
     font-size: 280%;
 }
 
-#circle-container{
+#circle-cover-bg{
+    background: url('../images/our-services.jpg') no-repeat center center;
     width: 320px;
     height: 320px;
-    padding: 30px;
     border-style: solid;
     border-color: #969696;
-    border-width: 1px;
+    border-width: 1px; 
     border-radius: 50%;
 
     margin: 0 auto;
-}
-
-#circle-cover-bg{
-    background: url('../images/our-services.jpg') no-repeat center center;
-    height: 100%;
 
     border-radius: 50%;
 }
@@ -490,12 +485,6 @@ label{
         }
     }
 
-    #hercules-services{
-        width: 60%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
     .left-about-heading, .right-about-heading{
         width: inherit;
     }
@@ -583,7 +572,7 @@ label{
     /* hero image */
 
     #hero-image{
-        height: 650px;
+        height: 840px;
         width: 100%;
         background: url('../images/hero-image3.jpg') no-repeat;
     
@@ -603,7 +592,44 @@ label{
             transform: scale(1.1);
         }
     }
+    
+    #cover-text{
+        font-size: 120%;
 
+        width: 330px;
+        height: 220px;
+    
+        padding-top: 40px;
+        padding-left: 10px;
+      
+        bottom: 240px;
+        left: 10px;
+    }
+
+    /* our services */
+    #center-about{
+        padding-bottom: 50px;
+    }
+
+    .h2_section{
+        font-size: 120%;
+    }
+
+    #circle-cover-bg{
+        background: url('../images/our-services2.jpg') no-repeat center center;
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        border-color: #969696;
+        border-width: 1px; 
+        border-radius: 50%;
+    
+        margin: 0 auto;
+    
+        border-radius: 50%;
+    }
+
+    /* gallery */
 
     #gallery{
         column-count: 1; 
@@ -624,6 +650,7 @@ label{
         display: block;
     }
 
+    /* footer */
     footer{
         height: 160px;
         padding-top: 30px;
