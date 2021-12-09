@@ -243,8 +243,7 @@ hr{
 /* about us */
 
 #about-us{
-    height: 400px;
-
+    padding-bottom: 50px;
 }
 
 .about-us-h2{
@@ -253,31 +252,34 @@ hr{
     font-size: 280%;
 }
 
-.p-about-us{
-    font-size: 18px;
-    line-height: 1.2;
+.about-us-columns{
+    display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
 
-    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-#left-about-us{
-    padding-top: 30px;
+.about-us-column{
+    text-align: center;
+
     width: 40%;
-    float: left;
+    margin: 0 auto;
 }
 
-#right-about-us{
-    padding-top: 30px;
-    width: 40%;
-    float: right;
+.about-us-title{
+    padding-bottom: 10px;
 }
 
-
+.about-us-text{
+    padding-bottom: 10px;
+}
 
 /* footer */
 
 footer{
-    height: 300px;
+    padding: 40px 0;
 
     background-color: rgb(48, 48, 48);
 }
@@ -442,11 +444,6 @@ label{
         padding-bottom: 40px;
     }
 
-    #about-us{
-        padding-bottom: 40px;
-    }
-
-
     hr{
         display: none;
     }
@@ -497,10 +494,26 @@ label{
     }
 
     /* about us */
-    .left-about-us-heading{
-        margin: 0 auto;
-        padding: 0 20%;
+
+    .about-us-h2{
+        margin: 30px 0 0 0;
     }
+
+    .about-us-columns{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .about-us-column{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-us-title{
+        padding-top: 30px;
+    }
+
+    /* gallery */
 
     #gallery{
        column-count: 3; 
@@ -539,40 +552,24 @@ label{
 @media screen and (max-width: 800px){
     /* about us */
 
-    .about-us-columns{
-        box-sizing: border-box;
-        
+    .about-us-column{
+        width: 95%;
+        margin: 0 auto;
     }
-
-
-
-
-
-
 
     #gallery{
         column-count: 2; 
      }
 
-     /* footer */
-     footer{
-        height: 200px;
-        padding-top: 30px;
-    }
-
      /* sign up */
-    .signup-form{
-        
+    .signup-form{ 
         margin: 150px 5% 0 0;
         max-width: 440px;
         
-        
-    
         bottom: 200px;
         left: 20px;
     
-        position: absolute;
-        
+        position: absolute;   
     }
     
     .signup-form > h2{
@@ -686,12 +683,6 @@ label{
         display: block;
     }
 
-    /* footer */
-    footer{
-        height: 160px;
-        padding-top: 30px;
-    }
-    
     .copyright{
         font-size: 16px;
         font-weight: 400;
